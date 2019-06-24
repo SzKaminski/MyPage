@@ -1,0 +1,97 @@
+
+.nav{
+    padding: 2px 0;
+    position: sticky;
+    top: 0;
+    height: 30px;
+    z-index: 2;
+    
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 1.6em;
+}
+.tripple{
+    float: right;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.tripple .icon-bar {
+    display: block;
+    width: 22px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #000;
+    margin: 3px 0px;
+}
+
+@keyframes text-appear{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+
+}
+
+.welcome-title{
+    opacity: 0;
+    width: 20%;
+    word-wrap: break-word;
+    margin-top: 15%;
+    margin-left: 25%;
+    position: absolute;
+    float: left;
+    font-family: 'Karla', sans-serif;
+    animation-name: text-appear;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.title-desc{
+    opacity: 0;
+    margin-left: 20%;
+    width: 60%;
+    margin-top: 5%;
+    font-size: 0.6em;
+    animation-name: text-appear;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#about{
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    height: 570px;
+    font-size: 2em;
+    background-color:  rgba(240, 216, 2, 0.664);
+    text-align: center;
+}
+
+.about-content{
+    width:50%;
+    float: left;
+    display:block;
+}
+
+.about-img{
+    padding-top: 5%;
+    width:30%;
+    object-fit: cover;
+}
+
+#github{
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    height: 100px;;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.github-title{
+    width:50%;
+    float: left;
+    display:block;
+}
