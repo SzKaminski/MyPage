@@ -18,7 +18,7 @@ export class CommentsService {
   public comments = [];
 
   getComment(): Observable<any> {
-    return this.http.get('//localhost:8080/getComment')
+    return this.http.get('//localhost:8080/getListOfComments')
       .pipe(
         map((data: any[]) => {
           return this.comments = data;

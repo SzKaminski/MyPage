@@ -1,0 +1,17 @@
+#commentBase{
+  font-family: 'Karla', sans-serif;
+  font-size: 1em;
+  width: 1000px;
+  margin: 0 auto 20px;
+}
+.comment-author{
+  width:50%;
+  display: inline-block;
+}
+
+.comment-content{
+  display: inline-block;
+  text-align: center;
+  width:50%;
+  clear: both;
+}
