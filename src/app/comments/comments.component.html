@@ -1,3 +1,9 @@
-<div *ngFor="let comment of commentsService.comments | keyvalue">
-  <div>{{comment.value.toString()}}</div>
+<div id="commentBase" *ngFor="let comment of comments| keyvalue">
+  <div class="comment-author">
+    <h4>{{comment.value.authorName}}</h4>
+    <label style="font-size: 0.5em">{{comment.value.date}}</label>
+  </div>
+  <div class="comment-content">
+    <label>{{comment.value.content}}</label>
+  </div>
 </div>
