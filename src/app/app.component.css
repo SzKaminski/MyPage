@@ -135,10 +135,3 @@
     float: left;
 }
 
-#commentBox{
-    clear:both;
-    padding-top: 30px;
-    display: block;
-    text-align: center;
-    width: 100%;
-}
